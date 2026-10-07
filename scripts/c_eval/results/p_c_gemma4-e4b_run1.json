@@ -1,0 +1,257 @@
+{
+  "tag": "p_c",
+  "model": "gemma4:e4b",
+  "summary": {
+    "run": 1,
+    "proposals": 38,
+    "hit": 12,
+    "wrong": 2,
+    "miss": 35,
+    "neg": 3,
+    "other": 12,
+    "fmt": 9,
+    "precision": 0.414,
+    "recall": 0.245,
+    "elapsed_sec": 143.9
+  },
+  "hit": [
+    "ML-GUNPACK -> ML-detector",
+    "T-SIM -> T_symbol",
+    "ML건파기 -> ML 검파기",
+    "가오션 자구분 -> 가우시안 잡음",
+    "AWM 채널 -> AWGN 채널",
+    "AWN -> AWGN",
+    "수식어 -> 수식과",
+    "PPSK -> BPSK",
+    "MZ부터 시작해서 MLSD까지 MLEQM -> M0부터 시작해서 M-1까지 M-QAM",
+    "NAP -> MAP",
+    "ML금파기 -> ML 검파기",
+    "ML금파괴 -> ML 검파기"
+  ],
+  "wrong": [
+    "디시점반드로 -> decision boundary (기대: 디시전 바운더리)",
+    "QM복조기 -> QPSK 복조기 (기대: QAM 복조기)"
+  ],
+  "neg": [
+    "Symbol 플러스 1 -> Symbol $m_1$",
+    "mk 확률 -> P(MK)",
+    "這裡我們將將MAP和MAP的差異和ML 검파기를載入 -> 여기서는 MAP과 MAP의 차이와 ML 검파기를 유도하겠습니다."
+  ],
+  "other": [
+    "MK를 전송할 때 수신 확률과 -> MK를 전송할 때의 수신 확률과",
+    "MKL 확률 -> P(MK)",
+    "SN 확률 -> P(S_n)",
+    "MI 확률 -> P(M_i)",
+    "這裡我們將從MAP 검法機來到ML 검法機來載入 -> 여기서는 MAP 검파기로부터 ML 검파기를 유도하겠습니다.",
+    "如果所有的MK的信號對MK有大幅的可能性的話 -> 모든 MK 신호에 대해 MK일 가능성이 높다면",
+    "我們之前看到的MAP 검法機是 -> 우리가 이전에 봤던 MAP 검파기는",
+    "當我傳送的MK的信號 -> 내가 전송한 MK 신호",
+    "R는 XT 더하기 WT -> r는 $x_t + w_t$",
+    "AN 더하기 JBN -> $A_n + jB_n$",
+    "맵퍼 -> mapper",
+    "컨슬레이션 -> constellation"
+  ],
+  "fmt": [
+    "symbol RN -> symbol $r_n$",
+    "MK -> m_k",
+    "D1 -> $d_1$",
+    "Symbol M2 -> Symbol $m_2$",
+    "D2 -> $d_2$",
+    "mk 를 전송했을 때 수신 될 -> MK를 전송했을 때 수신될",
+    "RN에 대한 조건에서의 MK일 확률 -> R_n에 대한 조건에서의 MK일 확률",
+    "Map 검파기 -> MAP 검파기",
+    "S0 -> S_0"
+  ],
+  "proposals": [
+    {
+      "original": "ML-GUNPACK",
+      "correction": "ML-detector"
+    },
+    {
+      "original": "T-SIM",
+      "correction": "T_symbol"
+    },
+    {
+      "original": "ML건파기",
+      "correction": "ML 검파기"
+    },
+    {
+      "original": "symbol RN",
+      "correction": "symbol $r_n$"
+    },
+    {
+      "original": "MK",
+      "correction": "m_k"
+    },
+    {
+      "original": "D1",
+      "correction": "$d_1$"
+    },
+    {
+      "original": "Symbol 플러스 1",
+      "correction": "Symbol $m_1$"
+    },
+    {
+      "original": "Symbol M2",
+      "correction": "Symbol $m_2$"
+    },
+    {
+      "original": "D2",
+      "correction": "$d_2$"
+    },
+    {
+      "original": "가오션 자구분",
+      "correction": "가우시안 잡음"
+    },
+    {
+      "original": "AWM 채널",
+      "correction": "AWGN 채널"
+    },
+    {
+      "original": "디시점반드로",
+      "correction": "decision boundary"
+    },
+    {
+      "original": "AWN",
+      "correction": "AWGN"
+    },
+    {
+      "original": "수식어",
+      "correction": "수식과"
+    },
+    {
+      "original": "PPSK",
+      "correction": "BPSK"
+    },
+    {
+      "original": "MZ부터 시작해서 MLSD까지 MLEQM",
+      "correction": "M0부터 시작해서 M-1까지 M-QAM"
+    },
+    {
+      "original": "mk 확률",
+      "correction": "P(MK)"
+    },
+    {
+      "original": "mk 를 전송했을 때 수신 될",
+      "correction": "MK를 전송했을 때 수신될"
+    },
+    {
+      "original": "RN에 대한 조건에서의 MK일 확률",
+      "correction": "R_n에 대한 조건에서의 MK일 확률"
+    },
+    {
+      "original": "MK를 전송할 때 수신 확률과",
+      "correction": "MK를 전송할 때의 수신 확률과"
+    },
+    {
+      "original": "MKL 확률",
+      "correction": "P(MK)"
+    },
+    {
+      "original": "SN 확률",
+      "correction": "P(S_n)"
+    },
+    {
+      "original": "MI 확률",
+      "correction": "P(M_i)"
+    },
+    {
+      "original": "Map 검파기",
+      "correction": "MAP 검파기"
+    },
+    {
+      "original": "這裡我們將將MAP和MAP的差異和ML 검파기를載入",
+      "correction": "여기서는 MAP과 MAP의 차이와 ML 검파기를 유도하겠습니다."
+    },
+    {
+      "original": "這裡我們將從MAP 검法機來到ML 검法機來載入",
+      "correction": "여기서는 MAP 검파기로부터 ML 검파기를 유도하겠습니다."
+    },
+    {
+      "original": "如果所有的MK的信號對MK有大幅的可能性的話",
+      "correction": "모든 MK 신호에 대해 MK일 가능성이 높다면"
+    },
+    {
+      "original": "我們之前看到的MAP 검法機是",
+      "correction": "우리가 이전에 봤던 MAP 검파기는"
+    },
+    {
+      "original": "當我傳送的MK的信號",
+      "correction": "내가 전송한 MK 신호"
+    },
+    {
+      "original": "NAP",
+      "correction": "MAP"
+    },
+    {
+      "original": "ML금파기",
+      "correction": "ML 검파기"
+    },
+    {
+      "original": "R는 XT 더하기 WT",
+      "correction": "r는 $x_t + w_t$"
+    },
+    {
+      "original": "QM복조기",
+      "correction": "QPSK 복조기"
+    },
+    {
+      "original": "AN 더하기 JBN",
+      "correction": "$A_n + jB_n$"
+    },
+    {
+      "original": "S0",
+      "correction": "S_0"
+    },
+    {
+      "original": "맵퍼",
+      "correction": "mapper"
+    },
+    {
+      "original": "컨슬레이션",
+      "correction": "constellation"
+    },
+    {
+      "original": "ML금파괴",
+      "correction": "ML 검파기"
+    }
+  ],
+  "miss": [
+    "수신신보 -> 수신신호",
+    "이참평면도 -> 복소평면도",
+    "복주 -> 복조",
+    "사사분면 -> 4사분면",
+    "컨솔레이션 -> 콘스텔레이션|constellation|컨스텔레이션",
+    "BPSQ -> BPSK",
+    "16회 면조 -> 16QAM 변조",
+    "DC전방위드 -> 디시전 바운더리",
+    "승볼 -> 심볼",
+    "16qm -> 16QAM",
+    "16kM -> 16QAM",
+    "M-QM -> M-QAM",
+    "SNL -> SNR",
+    "최적의 복구기 -> 최적의 복조기",
+    "조건부 환경 -> 조건부 확률",
+    "베이지 법칙 -> 베이즈 법칙",
+    "Map 검파기 -> MAP 검파기",
+    "맥시멀 라이클 후드 -> Maximum Likelihood|최대 우도|맥시멈 라이클리후드",
+    "복업되어 -> 복조되어",
+    "복수수평면도 -> 복소평면도",
+    "임페이지 성분 -> 인페이즈 성분",
+    "코드레트 성분 -> 쿼드러처 성분",
+    "코일의 디렉션 -> 코히런트 디텍션",
+    "수신빌터 -> 수신필터",
+    "디지털 마운드리 -> 디시전 바운더리",
+    "가우션 부품 -> 가우시안 분포",
+    "ML 건폐 -> ML 검파|ML 검파기",
+    "MLSD -> M15",
+    "MLEQM -> 16QAM",
+    "16QM -> 16QAM|16-QAM",
+    "M-ary QM -> M-ary QAM",
+    "BPS기든 -> BPSK기든|BPSK",
+    "QPS기든 -> QPSK기든|QPSK",
+    "APS기든 -> APSK기든|8PSK|APSK",
+    "D-Min2 -> d_min|D_min|dmin"
+  ],
+  "skipped_reason": null
+}

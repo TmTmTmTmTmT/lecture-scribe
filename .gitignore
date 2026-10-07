@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.mypy_cache/
+dist/
+build/
+*.egg-info/
+.DS_Store
+assets/samples/*.m4a
+assets/samples/*.wav
+assets/samples/*.txt
+packaging/build/
+packaging/dist/
+packaging/_iconwork/
+packaging/AppIcon.icns

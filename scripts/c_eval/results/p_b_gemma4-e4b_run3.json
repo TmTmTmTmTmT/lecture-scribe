@@ -1,0 +1,176 @@
+{
+  "tag": "p_b",
+  "model": "gemma4:e4b",
+  "summary": {
+    "run": 3,
+    "proposals": 22,
+    "hit": 11,
+    "wrong": 4,
+    "miss": 34,
+    "neg": 2,
+    "other": 4,
+    "fmt": 1,
+    "precision": 0.524,
+    "recall": 0.224,
+    "elapsed_sec": 113.7
+  },
+  "hit": [
+    "ML-GUNPACK -> ML-detector",
+    "T-SIM -> T_symbol",
+    "디지털 신호 00가 복주됩니다 -> 디지털 신호로 00이 복조됩니다",
+    "컨솔레이션 -> Constellation",
+    "AWM -> AWGN",
+    "AWN -> AWGN",
+    "수식어 -> 수식과",
+    "PPSK -> M-PSK",
+    "BPS -> BPSK",
+    "QPS -> QPSK",
+    "ML금파괴 -> ML 검파기"
+  ],
+  "wrong": [
+    "ML건파기 -> ML detector (기대: ML 검파기)",
+    "이참평면도 -> I-Q 평면도 (기대: 복소평면도)",
+    "가오션 자구분 -> Gaussian 잡음 (기대: 가우시안 잡음)",
+    "디시점반드 -> Decision Boundary (기대: 디시전 바운더리)"
+  ],
+  "neg": [
+    "Symbol 플러스 1 -> Symbol +1",
+    "mk -> M"
+  ],
+  "other": [
+    "일사분면 -> Quadrant",
+    "맵 -> MAP",
+    "exp- -> $\text{exp}$",
+    "Exponential 자인 로그 -> $\text{ln}(\text{exp})$"
+  ],
+  "fmt": [
+    "Wn -> w_n"
+  ],
+  "proposals": [
+    {
+      "original": "ML-GUNPACK",
+      "correction": "ML-detector"
+    },
+    {
+      "original": "T-SIM",
+      "correction": "T_symbol"
+    },
+    {
+      "original": "ML건파기",
+      "correction": "ML detector"
+    },
+    {
+      "original": "이참평면도",
+      "correction": "I-Q 평면도"
+    },
+    {
+      "original": "Symbol 플러스 1",
+      "correction": "Symbol +1"
+    },
+    {
+      "original": "일사분면",
+      "correction": "Quadrant"
+    },
+    {
+      "original": "디지털 신호 00가 복주됩니다",
+      "correction": "디지털 신호로 00이 복조됩니다"
+    },
+    {
+      "original": "컨솔레이션",
+      "correction": "Constellation"
+    },
+    {
+      "original": "가오션 자구분",
+      "correction": "Gaussian 잡음"
+    },
+    {
+      "original": "AWM",
+      "correction": "AWGN"
+    },
+    {
+      "original": "디시점반드",
+      "correction": "Decision Boundary"
+    },
+    {
+      "original": "AWN",
+      "correction": "AWGN"
+    },
+    {
+      "original": "수식어",
+      "correction": "수식과"
+    },
+    {
+      "original": "Wn",
+      "correction": "w_n"
+    },
+    {
+      "original": "PPSK",
+      "correction": "M-PSK"
+    },
+    {
+      "original": "mk",
+      "correction": "M"
+    },
+    {
+      "original": "맵",
+      "correction": "MAP"
+    },
+    {
+      "original": "exp-",
+      "correction": "$\text{exp}$"
+    },
+    {
+      "original": "Exponential 자인 로그",
+      "correction": "$\text{ln}(\text{exp})$"
+    },
+    {
+      "original": "BPS",
+      "correction": "BPSK"
+    },
+    {
+      "original": "QPS",
+      "correction": "QPSK"
+    },
+    {
+      "original": "ML금파괴",
+      "correction": "ML 검파기"
+    }
+  ],
+  "miss": [
+    "수신신보 -> 수신신호",
+    "사사분면 -> 4사분면",
+    "16회 면조 -> 16QAM 변조",
+    "DC전방위드 -> 디시전 바운더리",
+    "승볼 -> 심볼",
+    "16qm -> 16QAM",
+    "16kM -> 16QAM",
+    "M-QM -> M-QAM",
+    "SNL -> SNR",
+    "최적의 복구기 -> 최적의 복조기",
+    "조건부 환경 -> 조건부 확률",
+    "베이지 법칙 -> 베이즈 법칙",
+    "Map 검파기 -> MAP 검파기",
+    "NAP 검파기 -> MAP 검파기",
+    "맥시멀 라이클 후드 -> Maximum Likelihood|최대 우도|맥시멈 라이클리후드",
+    "복업되어 -> 복조되어",
+    "ML금파기 -> ML 검파기",
+    "복수수평면도 -> 복소평면도",
+    "임페이지 성분 -> 인페이즈 성분",
+    "코드레트 성분 -> 쿼드러처 성분",
+    "코일의 디렉션 -> 코히런트 디텍션",
+    "수신빌터 -> 수신필터",
+    "디지털 마운드리 -> 디시전 바운더리",
+    "가우션 부품 -> 가우시안 분포",
+    "ML 건폐 -> ML 검파|ML 검파기",
+    "MZ -> M0",
+    "MLSD -> M15",
+    "MLEQM -> 16QAM",
+    "16QM -> 16QAM|16-QAM",
+    "M-ary QM -> M-ary QAM",
+    "BPS기든 -> BPSK기든|BPSK",
+    "APS기든 -> APSK기든|8PSK|APSK",
+    "QM복조기 -> QAM 복조기",
+    "D-Min2 -> d_min|D_min|dmin"
+  ],
+  "skipped_reason": null
+}

@@ -1,0 +1,354 @@
+{
+  "_status": "DRAFT — Sonnet이 전사문과 문맥만 보고 작성(오디오 확인 없음). 사용자 확정 필요. expected 중 '추정'은 특히 확인.",
+  "_sample": "LSsamples/2주차 ML검파기.mov (13.8분, mlx large-v3 전사)",
+  "gold": [
+    {
+      "original": "ML-GUNPACK",
+      "expected": "ML 검파기|ML detector|ML-detector|ML 디텍터",
+      "kind": "용어 오인식",
+      "sure": true
+    },
+    {
+      "original": "T-SIM",
+      "expected": "T_sym",
+      "kind": "약어",
+      "sure": true
+    },
+    {
+      "original": "수신신보",
+      "expected": "수신신호",
+      "kind": "한글 오인식",
+      "sure": true
+    },
+    {
+      "original": "ML건파기",
+      "expected": "ML 검파기",
+      "kind": "용어 오인식",
+      "sure": true
+    },
+    {
+      "original": "이참평면도",
+      "expected": "복소평면도",
+      "kind": "용어 오인식",
+      "sure": false
+    },
+    {
+      "original": "복주",
+      "expected": "복조",
+      "kind": "한글 오인식",
+      "sure": true
+    },
+    {
+      "original": "사사분면",
+      "expected": "4사분면",
+      "kind": "한글 오인식",
+      "sure": false
+    },
+    {
+      "original": "컨솔레이션",
+      "expected": "콘스텔레이션|constellation|컨스텔레이션",
+      "kind": "용어 오인식",
+      "sure": true
+    },
+    {
+      "original": "BPSQ",
+      "expected": "BPSK",
+      "kind": "약어",
+      "sure": true
+    },
+    {
+      "original": "16회 면조",
+      "expected": "16QAM 변조",
+      "kind": "약어",
+      "sure": true
+    },
+    {
+      "original": "가오션 자구분",
+      "expected": "가우시안 잡음",
+      "kind": "용어 오인식",
+      "sure": false
+    },
+    {
+      "original": "AWM",
+      "expected": "AWGN",
+      "kind": "약어",
+      "sure": true
+    },
+    {
+      "original": "디시점반드로",
+      "expected": "디시전 바운더리",
+      "kind": "용어 오인식",
+      "sure": true
+    },
+    {
+      "original": "DC전방위드",
+      "expected": "디시전 바운더리",
+      "kind": "용어 오인식",
+      "sure": true
+    },
+    {
+      "original": "승볼",
+      "expected": "심볼",
+      "kind": "한글 오인식",
+      "sure": true
+    },
+    {
+      "original": "16qm",
+      "expected": "16QAM",
+      "kind": "약어",
+      "sure": true
+    },
+    {
+      "original": "16kM",
+      "expected": "16QAM",
+      "kind": "약어",
+      "sure": true
+    },
+    {
+      "original": "M-QM",
+      "expected": "M-QAM",
+      "kind": "약어",
+      "sure": true
+    },
+    {
+      "original": "SNL",
+      "expected": "SNR",
+      "kind": "약어",
+      "sure": true
+    },
+    {
+      "original": "AWN",
+      "expected": "AWGN",
+      "kind": "약어",
+      "sure": true
+    },
+    {
+      "original": "수식어와 같이",
+      "expected": "수식과 같이",
+      "kind": "한글 오인식",
+      "sure": true
+    },
+    {
+      "original": "최적의 복구기",
+      "expected": "최적의 복조기",
+      "kind": "한글 오인식",
+      "sure": true
+    },
+    {
+      "original": "PPSK",
+      "expected": "PSK",
+      "kind": "약어",
+      "sure": true
+    },
+    {
+      "original": "조건부 환경",
+      "expected": "조건부 확률",
+      "kind": "한글 오인식",
+      "sure": true
+    },
+    {
+      "original": "베이지 법칙",
+      "expected": "베이즈 법칙",
+      "kind": "용어 오인식",
+      "sure": true
+    },
+    {
+      "original": "Map 검파기",
+      "expected": "MAP 검파기",
+      "kind": "약어",
+      "sure": true
+    },
+    {
+      "original": "NAP 검파기",
+      "expected": "MAP 검파기",
+      "kind": "약어",
+      "sure": true
+    },
+    {
+      "original": "맥시멀 라이클 후드",
+      "expected": "Maximum Likelihood|최대 우도|맥시멈 라이클리후드",
+      "kind": "용어 오인식",
+      "sure": true
+    },
+    {
+      "original": "복업되어",
+      "expected": "복조되어",
+      "kind": "한글 오인식",
+      "sure": false
+    },
+    {
+      "original": "ML금파괴",
+      "expected": "ML 검파기",
+      "kind": "용어 오인식",
+      "sure": true
+    },
+    {
+      "original": "ML금파기",
+      "expected": "ML 검파기",
+      "kind": "용어 오인식",
+      "sure": true
+    },
+    {
+      "original": "복수수평면도",
+      "expected": "복소평면도",
+      "kind": "용어 오인식",
+      "sure": true
+    },
+    {
+      "original": "임페이지 성분",
+      "expected": "인페이즈 성분",
+      "kind": "용어 오인식",
+      "sure": true
+    },
+    {
+      "original": "코드레트 성분",
+      "expected": "쿼드러처 성분",
+      "kind": "용어 오인식",
+      "sure": true
+    },
+    {
+      "original": "코일의 디렉션",
+      "expected": "코히런트 디텍션",
+      "kind": "용어 오인식",
+      "sure": false
+    },
+    {
+      "original": "수신빌터",
+      "expected": "수신필터",
+      "kind": "한글 오인식",
+      "sure": true
+    },
+    {
+      "original": "디지털 마운드리",
+      "expected": "디시전 바운더리",
+      "kind": "용어 오인식",
+      "sure": true
+    },
+    {
+      "original": "가우션 부품",
+      "expected": "가우시안 분포",
+      "kind": "용어 오인식",
+      "sure": false
+    },
+    {
+      "original": "ML 건폐",
+      "expected": "ML 검파|ML 검파기",
+      "kind": "용어 오인식",
+      "sure": true
+    },
+    {
+      "original": "MZ",
+      "expected": "M0",
+      "kind": "수식 표기",
+      "sure": false
+    },
+    {
+      "original": "MLSD",
+      "expected": "M15",
+      "kind": "수식 표기",
+      "sure": false
+    },
+    {
+      "original": "MLEQM",
+      "expected": "16QAM",
+      "kind": "약어",
+      "sure": false
+    },
+    {
+      "original": "16QM",
+      "expected": "16QAM|16-QAM",
+      "kind": "약어",
+      "sure": true,
+      "added_after_gate": true
+    },
+    {
+      "original": "M-ary QM",
+      "expected": "M-ary QAM",
+      "kind": "약어",
+      "sure": true,
+      "added_after_gate": true
+    },
+    {
+      "original": "BPS기든",
+      "expected": "BPSK기든|BPSK",
+      "kind": "약어",
+      "sure": true,
+      "added_after_gate": true
+    },
+    {
+      "original": "QPS기든",
+      "expected": "QPSK기든|QPSK",
+      "kind": "약어",
+      "sure": true,
+      "added_after_gate": true
+    },
+    {
+      "original": "APS기든",
+      "expected": "APSK기든|8PSK|APSK",
+      "kind": "약어",
+      "sure": false,
+      "added_after_gate": true
+    },
+    {
+      "original": "QM복조기",
+      "expected": "QAM 복조기",
+      "kind": "약어",
+      "sure": true,
+      "added_after_gate": true
+    },
+    {
+      "original": "D-Min2",
+      "expected": "d_min|D_min|dmin",
+      "kind": "약어",
+      "sure": false,
+      "added_after_gate": true
+    }
+  ],
+  "negatives": [
+    {
+      "original": "MK가 발생할 확률",
+      "note": "MK(=M_k)는 심볼 이름. ML로 바꾸면 오교정"
+    },
+    {
+      "original": "mk 확률",
+      "note": "MK를 ML로 바꾸면 오교정(실측 기준선에서 발생)"
+    },
+    {
+      "original": "MK를 제외한 모든",
+      "note": "MK는 정상"
+    },
+    {
+      "original": "mk가 크면",
+      "note": "mk는 정상"
+    },
+    {
+      "original": "ml검파기",
+      "note": "이미 올바른 ML 검파기(띄어쓰기만 다름)"
+    },
+    {
+      "original": "ML 검파기",
+      "note": "정상"
+    },
+    {
+      "original": "심벌",
+      "note": "심볼의 표기 변이(오류 아님)"
+    },
+    {
+      "original": "Symbol",
+      "note": "영어 그대로 정상"
+    },
+    {
+      "original": "AWGN",
+      "note": "이미 정상"
+    },
+    {
+      "original": "BPSK",
+      "note": "이미 정상"
+    },
+    {
+      "original": "사전 확률",
+      "note": "정상"
+    }
+  ],
+  "_note": "expected의 '|'는 허용 가능한 표기 대안(하나라도 맞으면 정답). added_after_gate=true 항목은 OCR 게이트 결과를 본 뒤 전사문을 다시 읽고 추가(기준선·OCR 양쪽에 동일 적용해 재채점)."
+}

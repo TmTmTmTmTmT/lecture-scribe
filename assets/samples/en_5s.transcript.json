@@ -1,0 +1,85 @@
+{
+  "source_audio": "/path/to/lecture-scribe/assets/samples/en_5s.m4a",
+  "transcribed_at": "2026-09-06T00:41:00+09:00",
+  "duration_sec": 4.551,
+  "language": "",
+  "language_probability": 1.0,
+  "model": "large-v3",
+  "backend": "mlx",
+  "compute_type": "int8",
+  "topic": "",
+  "glossary": [
+    "데이터",
+    "교수님",
+    "기상점",
+    "데이터셋",
+    "기상청",
+    "스마트폰",
+    "디바이스",
+    "인공지능",
+    "시나리오",
+    "카메라",
+    "인터뷰",
+    "경우에",
+    "부분들",
+    "작업장",
+    "하우스",
+    "있게끔",
+    "시스템",
+    "아니라",
+    "서비스",
+    "IMU",
+    "가속도계",
+    "알고리즘",
+    "경진대회",
+    "농어촌"
+  ],
+  "segment_count": 1,
+  "avg_logprob": -0.1041,
+  "low_confidence_ratio": 0.0,
+  "low_confidence_marker": "⟨?⟩",
+  "prompt": {
+    "initial_prompt": null,
+    "hotwords": null,
+    "used_tokens": 0,
+    "budget_tokens": 223,
+    "dropped_terms": [],
+    "fallback_used": false,
+    "collapse_reason": null
+  },
+  "decoding": {
+    "beam_size": 3,
+    "vad_filter": false,
+    "temperatures": [
+      0.0,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1.0
+    ],
+    "compression_ratio_threshold": 2.4,
+    "log_prob_threshold": -1.0,
+    "no_speech_threshold": 0.6
+  },
+  "corrections": [],
+  "repeats": [],
+  "warnings": [
+    "프롬프트 사용이 설정에서 꺼져 있습니다.",
+    "mlx 백엔드(batched=False)에서 무시되는 옵션: prompt_reset_on_temperature",
+    "mlx 백엔드(batched=False)에서 무시되는 옵션: beam_size=3(빔 서치 미구현, 그리디 사용)"
+  ],
+  "low_confidence_logprob": -0.8,
+  "segments": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 3.8,
+      "text": "Today we will discuss impedance matching and the Smith chart in microwave engineering.",
+      "avg_logprob": -0.1041,
+      "no_speech_prob": 0.0033,
+      "compression_ratio": 1.0886,
+      "temperature": 0.0
+    }
+  ]
+}

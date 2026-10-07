@@ -1,0 +1,224 @@
+{
+  "tag": "baseline",
+  "model": "gemma4:e2b",
+  "summary": {
+    "run": 2,
+    "proposals": 32,
+    "hit": 6,
+    "wrong": 5,
+    "miss": 32,
+    "neg": 6,
+    "other": 5,
+    "fmt": 10,
+    "precision": 0.273,
+    "recall": 0.14,
+    "elapsed_sec": 82.8
+  },
+  "hit": [
+    "BPSQ -> BPSK",
+    "AWM -> AWGN",
+    "M-QM -> M-QAM",
+    "AWN -> AWGN",
+    "PPSK -> PSK",
+    "AWN 채널로 MK를 전송했을 경우에 -> AWGN 채널로 MK를 전송했을 경우에"
+  ],
+  "wrong": [
+    "ML-GUNPACK -> ML 추정기 (ML Detector) (기대: ML 검파기)",
+    "16qm -> 16M (기대: 16QAM)",
+    "16kM -> 16M (기대: 16QAM)",
+    "이걸 우리가 맥시멀 라이클 후드 즉 ML 검파기라고 부릅니다. -> 이걸 우리가 최대 우도 즉 ML 검파기라고 부릅니다. (기대: Maximum Likelihood(최대 우도))",
+    "ML금파괴 -> ML 파괴 (기대: ML 검파기)"
+  ],
+  "neg": [
+    "mk 확률 -> ML 확률",
+    "MK를 제외한 모든 심벌에 대해서 -> ML을 제외한 모든 심볼에 대해서",
+    "mk 조건 확률의 rn은 그걸 뺀 mk를 제외한 모든 심벌에서 크면 -> ML 조건 확률의 RN은 그걸 뺀 ML을 제외한 모든 심벌에서 크면",
+    "mk가 크면 우리가 mk라고 복조하자 라고 하는 겁니다. -> ML이 크면 우리가 ML이라고 복조하자 라고 하는 겁니다.",
+    "SN 확률, 즉 Symbol의 확률이 MKL 확률과 MI 확률이 다를 때 -> SN 확률, 즉 Symbol의 확률이 ML 확률과 MI 확률이 다를 때",
+    "M-ary면 M계의 Symbol이 있는 M-ary QM의 경우는 -> M-ary면 M개의 Symbol이 있는 M-ary QM의 경우는"
+  ],
+  "other": [
+    "symbol -> 심볼",
+    "RN에 대한 조건에서의 MK일 확률 -> RN에 대한 조건에서의 ML일 확률",
+    "심볼 M제로부터 시작해서 M15까지 -> 심볼 M에서부터 M15까지",
+    "수신신호 RN의 확률을, 조건방률이죠. -> 수신신호 $R_N$의 확률을, 조건부 확률이죠.",
+    "AN 더하기 JBN -> AN + JBN"
+  ],
+  "fmt": [
+    "BPS-K -> BPSK",
+    "Rn -> R_n",
+    "Sn -> S_n",
+    "Wn -> W_n",
+    "M0 -> M_0",
+    "M1 -> M_1",
+    "MK -> M_k",
+    "사전 확률이 요하치 다를 경우는 이걸 우리가 Map 검파기라고 부릅니다. -> 사전 확률이 요하치 다를 경우는 이걸 우리가 MAP 검파기라고 부릅니다.",
+    "ml검파기 -> ML 검파기",
+    "mk -> MK"
+  ],
+  "proposals": [
+    {
+      "original": "ML-GUNPACK",
+      "correction": "ML 추정기 (ML Detector)"
+    },
+    {
+      "original": "symbol",
+      "correction": "심볼"
+    },
+    {
+      "original": "BPSQ",
+      "correction": "BPSK"
+    },
+    {
+      "original": "AWM",
+      "correction": "AWGN"
+    },
+    {
+      "original": "16qm",
+      "correction": "16M"
+    },
+    {
+      "original": "BPS-K",
+      "correction": "BPSK"
+    },
+    {
+      "original": "16kM",
+      "correction": "16M"
+    },
+    {
+      "original": "M-QM",
+      "correction": "M-QAM"
+    },
+    {
+      "original": "AWN",
+      "correction": "AWGN"
+    },
+    {
+      "original": "Rn",
+      "correction": "R_n"
+    },
+    {
+      "original": "Sn",
+      "correction": "S_n"
+    },
+    {
+      "original": "Wn",
+      "correction": "W_n"
+    },
+    {
+      "original": "M0",
+      "correction": "M_0"
+    },
+    {
+      "original": "M1",
+      "correction": "M_1"
+    },
+    {
+      "original": "PPSK",
+      "correction": "PSK"
+    },
+    {
+      "original": "MK",
+      "correction": "M_k"
+    },
+    {
+      "original": "mk 확률",
+      "correction": "ML 확률"
+    },
+    {
+      "original": "RN에 대한 조건에서의 MK일 확률",
+      "correction": "RN에 대한 조건에서의 ML일 확률"
+    },
+    {
+      "original": "MK를 제외한 모든 심벌에 대해서",
+      "correction": "ML을 제외한 모든 심볼에 대해서"
+    },
+    {
+      "original": "mk 조건 확률의 rn은 그걸 뺀 mk를 제외한 모든 심벌에서 크면",
+      "correction": "ML 조건 확률의 RN은 그걸 뺀 ML을 제외한 모든 심벌에서 크면"
+    },
+    {
+      "original": "mk가 크면 우리가 mk라고 복조하자 라고 하는 겁니다.",
+      "correction": "ML이 크면 우리가 ML이라고 복조하자 라고 하는 겁니다."
+    },
+    {
+      "original": "SN 확률, 즉 Symbol의 확률이 MKL 확률과 MI 확률이 다를 때",
+      "correction": "SN 확률, 즉 Symbol의 확률이 ML 확률과 MI 확률이 다를 때"
+    },
+    {
+      "original": "사전 확률이 요하치 다를 경우는 이걸 우리가 Map 검파기라고 부릅니다.",
+      "correction": "사전 확률이 요하치 다를 경우는 이걸 우리가 MAP 검파기라고 부릅니다."
+    },
+    {
+      "original": "심볼 M제로부터 시작해서 M15까지",
+      "correction": "심볼 M에서부터 M15까지"
+    },
+    {
+      "original": "M-ary면 M계의 Symbol이 있는 M-ary QM의 경우는",
+      "correction": "M-ary면 M개의 Symbol이 있는 M-ary QM의 경우는"
+    },
+    {
+      "original": "이걸 우리가 맥시멀 라이클 후드 즉 ML 검파기라고 부릅니다.",
+      "correction": "이걸 우리가 최대 우도 즉 ML 검파기라고 부릅니다."
+    },
+    {
+      "original": "AWN 채널로 MK를 전송했을 경우에",
+      "correction": "AWGN 채널로 MK를 전송했을 경우에"
+    },
+    {
+      "original": "수신신호 RN의 확률을, 조건방률이죠.",
+      "correction": "수신신호 $R_N$의 확률을, 조건부 확률이죠."
+    },
+    {
+      "original": "ml검파기",
+      "correction": "ML 검파기"
+    },
+    {
+      "original": "mk",
+      "correction": "MK"
+    },
+    {
+      "original": "AN 더하기 JBN",
+      "correction": "AN + JBN"
+    },
+    {
+      "original": "ML금파괴",
+      "correction": "ML 파괴"
+    }
+  ],
+  "miss": [
+    "T-SIM -> T_sym",
+    "수신신보 -> 수신신호",
+    "ML건파기 -> ML 검파기",
+    "이참평면도 -> 복소평면도",
+    "복주 -> 복조",
+    "사사분면 -> 4사분면",
+    "컨솔레이션 -> 콘스텔레이션",
+    "16회 면조 -> 16QAM 변조",
+    "가오션 자구분 -> 가우시안 잡음",
+    "디시점반드로 -> 디시전 바운더리",
+    "DC전방위드 -> 디시전 바운더리",
+    "승볼 -> 심볼",
+    "SNL -> SNR",
+    "수식어와 같이 -> 수식과 같이",
+    "최적의 복구기 -> 최적의 복조기",
+    "조건부 환경 -> 조건부 확률",
+    "베이지 법칙 -> 베이즈 법칙",
+    "Map 검파기 -> MAP 검파기",
+    "NAP 검파기 -> MAP 검파기",
+    "복업되어 -> 복조되어",
+    "ML금파기 -> ML 검파기",
+    "복수수평면도 -> 복소평면도",
+    "임페이지 성분 -> 인페이즈 성분",
+    "코드레트 성분 -> 쿼드러처 성분",
+    "코일의 디렉션 -> 코히런트 디텍션",
+    "수신빌터 -> 수신필터",
+    "디지털 마운드리 -> 디시전 바운더리",
+    "가우션 부품 -> 가우시안 분포",
+    "ML 건폐 -> ML 검파",
+    "MZ -> M0",
+    "MLSD -> M15",
+    "MLEQM -> 16QAM"
+  ],
+  "skipped_reason": null
+}

@@ -1,0 +1,35 @@
+== g
+{"run": 1, "proposals": 38, "hit": 19, "wrong": 4, "miss": 27, "neg": 2, "other": 10, "fmt": 3, "precision": 0.543, "recall": 0.38, "elapsed_sec": 127.6}
+{"run": 2, "proposals": 34, "hit": 18, "wrong": 4, "miss": 28, "neg": 1, "other": 8, "fmt": 3, "precision": 0.581, "recall": 0.36, "elapsed_sec": 121.5}
+{"run": 3, "proposals": 31, "hit": 17, "wrong": 4, "miss": 29, "neg": 2, "other": 6, "fmt": 2, "precision": 0.586, "recall": 0.34, "elapsed_sec": 126.6}
+MEAN {"proposals": 34.333, "hit": 18.0, "wrong": 4.0, "miss": 28.0, "neg": 1.667, "other": 8.0, "fmt": 2.667, "precision": 0.57, "recall": 0.36, "elapsed_sec": 125.233} {"hit_min": 17, "neg_max": 2}
+== h
+{"run": 1, "proposals": 31, "hit": 15, "wrong": 4, "miss": 31, "neg": 3, "other": 5, "fmt": 4, "precision": 0.556, "recall": 0.3, "elapsed_sec": 127.9}
+{"run": 2, "proposals": 29, "hit": 10, "wrong": 5, "miss": 34, "neg": 3, "other": 4, "fmt": 7, "precision": 0.455, "recall": 0.204, "elapsed_sec": 117.5}
+{"run": 3, "proposals": 36, "hit": 12, "wrong": 7, "miss": 31, "neg": 2, "other": 8, "fmt": 7, "precision": 0.414, "recall": 0.24, "elapsed_sec": 127.7}
+MEAN {"proposals": 32.0, "hit": 12.333, "wrong": 5.333, "miss": 32.0, "neg": 2.667, "other": 5.667, "fmt": 6.0, "precision": 0.475, "recall": 0.248, "elapsed_sec": 124.367} {"hit_min": 10, "neg_max": 3}
+== a
+{"run": 1, "proposals": 25, "hit": 10, "wrong": 4, "miss": 36, "neg": 2, "other": 5, "fmt": 4, "precision": 0.476, "recall": 0.2, "elapsed_sec": 108.0}
+{"run": 2, "proposals": 25, "hit": 10, "wrong": 4, "miss": 36, "neg": 2, "other": 5, "fmt": 4, "precision": 0.476, "recall": 0.2, "elapsed_sec": 108.0}
+{"run": 3, "proposals": 25, "hit": 10, "wrong": 4, "miss": 36, "neg": 2, "other": 5, "fmt": 4, "precision": 0.476, "recall": 0.2, "elapsed_sec": 108.1}
+MEAN {"proposals": 25.0, "hit": 10.0, "wrong": 4.0, "miss": 36.0, "neg": 2.0, "other": 5.0, "fmt": 4.0, "precision": 0.476, "recall": 0.2, "elapsed_sec": 108.033} {"hit_min": 10, "neg_max": 2}
+== d
+{"run": 1, "proposals": 21, "hit": 8, "wrong": 5, "miss": 36, "neg": 1, "other": 4, "fmt": 3, "precision": 0.444, "recall": 0.163, "elapsed_sec": 112.4}
+{"run": 2, "proposals": 23, "hit": 11, "wrong": 4, "miss": 34, "neg": 2, "other": 2, "fmt": 4, "precision": 0.579, "recall": 0.224, "elapsed_sec": 99.4}
+{"run": 3, "proposals": 25, "hit": 9, "wrong": 6, "miss": 34, "neg": 2, "other": 2, "fmt": 6, "precision": 0.474, "recall": 0.184, "elapsed_sec": 106.0}
+MEAN {"proposals": 23.0, "hit": 9.333, "wrong": 5.0, "miss": 34.667, "neg": 1.667, "other": 2.667, "fmt": 4.333, "precision": 0.499, "recall": 0.19, "elapsed_sec": 105.933} {"hit_min": 8, "neg_max": 2}
+== c
+{"run": 1, "proposals": 38, "hit": 12, "wrong": 2, "miss": 35, "neg": 3, "other": 12, "fmt": 9, "precision": 0.414, "recall": 0.245, "elapsed_sec": 143.9}
+{"run": 2, "proposals": 29, "hit": 11, "wrong": 4, "miss": 34, "neg": 3, "other": 4, "fmt": 7, "precision": 0.5, "recall": 0.224, "elapsed_sec": 120.1}
+{"run": 3, "proposals": 45, "hit": 12, "wrong": 5, "miss": 33, "neg": 6, "other": 14, "fmt": 8, "precision": 0.324, "recall": 0.24, "elapsed_sec": 162.3}
+MEAN {"proposals": 37.333, "hit": 11.667, "wrong": 3.667, "miss": 34.0, "neg": 4.0, "other": 10.0, "fmt": 8.0, "precision": 0.413, "recall": 0.236, "elapsed_sec": 142.1} {"hit_min": 11, "neg_max": 6}
+== e
+{"run": 1, "proposals": 27, "hit": 14, "wrong": 2, "miss": 33, "neg": 2, "other": 1, "fmt": 8, "precision": 0.737, "recall": 0.286, "elapsed_sec": 104.8}
+{"run": 2, "proposals": 24, "hit": 14, "wrong": 3, "miss": 32, "neg": 2, "other": 4, "fmt": 1, "precision": 0.609, "recall": 0.286, "elapsed_sec": 104.4}
+{"run": 3, "proposals": 22, "hit": 15, "wrong": 2, "miss": 32, "neg": 1, "other": 4, "fmt": 0, "precision": 0.682, "recall": 0.306, "elapsed_sec": 106.0}
+MEAN {"proposals": 24.333, "hit": 14.333, "wrong": 2.333, "miss": 32.333, "neg": 1.667, "other": 3.0, "fmt": 3.0, "precision": 0.676, "recall": 0.293, "elapsed_sec": 105.067} {"hit_min": 14, "neg_max": 2}
+== b
+{"run": 1, "proposals": 21, "hit": 10, "wrong": 3, "miss": 36, "neg": 1, "other": 5, "fmt": 2, "precision": 0.526, "recall": 0.204, "elapsed_sec": 118.4}
+{"run": 2, "proposals": 25, "hit": 11, "wrong": 5, "miss": 33, "neg": 2, "other": 5, "fmt": 2, "precision": 0.478, "recall": 0.224, "elapsed_sec": 135.3}
+{"run": 3, "proposals": 22, "hit": 11, "wrong": 4, "miss": 34, "neg": 2, "other": 4, "fmt": 1, "precision": 0.524, "recall": 0.224, "elapsed_sec": 113.7}
+MEAN {"proposals": 22.667, "hit": 10.667, "wrong": 4.0, "miss": 34.333, "neg": 1.667, "other": 4.667, "fmt": 1.667, "precision": 0.509, "recall": 0.217, "elapsed_sec": 122.467} {"hit_min": 10, "neg_max": 2}

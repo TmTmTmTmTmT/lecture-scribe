@@ -1,0 +1,4 @@
+{"run": 1, "proposals": 19, "hit": 3, "wrong": 3, "miss": 36, "neg": 4, "other": 6, "fmt": 3, "precision": 0.188, "recall": 0.071, "elapsed_sec": 71.5}
+{"run": 2, "proposals": 18, "hit": 5, "wrong": 3, "miss": 35, "neg": 3, "other": 3, "fmt": 4, "precision": 0.357, "recall": 0.116, "elapsed_sec": 80.3}
+{"run": 3, "proposals": 17, "hit": 4, "wrong": 3, "miss": 36, "neg": 3, "other": 4, "fmt": 3, "precision": 0.286, "recall": 0.093, "elapsed_sec": 68.2}
+MEAN {"proposals": 18.0, "hit": 4.0, "wrong": 3.0, "miss": 35.667, "neg": 3.333, "other": 4.333, "fmt": 3.333, "precision": 0.277, "recall": 0.093, "elapsed_sec": 73.333} {"hit_min": 3, "neg_max": 4}

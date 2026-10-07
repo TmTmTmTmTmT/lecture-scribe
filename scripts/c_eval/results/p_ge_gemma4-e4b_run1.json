@@ -1,0 +1,233 @@
+{
+  "tag": "p_ge",
+  "model": "gemma4:e4b",
+  "summary": {
+    "run": 1,
+    "proposals": 35,
+    "hit": 18,
+    "wrong": 6,
+    "miss": 26,
+    "neg": 2,
+    "other": 8,
+    "fmt": 1,
+    "precision": 0.529,
+    "recall": 0.36,
+    "elapsed_sec": 119.1
+  },
+  "hit": [
+    "ML-GUNPACK -> ML-detector",
+    "T-SIM -> T_symbol",
+    "ML건파기 -> ML 검파기",
+    "가오션 자구분 -> 가우시안 잡음분포",
+    "16qm -> 16-QAM",
+    "16kM -> 16-QAM",
+    "AWN -> AWGN",
+    "수식어 -> 수식과",
+    "PPSK -> PSK",
+    "MLEQM -> 16-QAM",
+    "MZ -> M0",
+    "MLSD -> M-1",
+    "MK라고 복업되어 있는 경우는 -> MK라고 복조되어 있는 경우는",
+    "NAP 검파기와 ML 검파기의 차이점은 -> MAP 검파기와 ML 검파기의 차이점은",
+    "AWN 채널로 MK를 전송했을 경우에 -> AWGN 채널로 MK를 전송했을 경우에",
+    "BPS기든 -> BPSK기든",
+    "QPS기든 -> QPSK기든",
+    "ML금파괴 -> ML 검파기"
+  ],
+  "wrong": [
+    "이참평면도 -> I-Q 평면도 (기대: 복소평면도)",
+    "컨솔레이션 -> 결정(Decision) (기대: 콘스텔레이션|constellation|컨스텔레이션)",
+    "디시점반드로 -> 결정 경계로 (기대: 디시전 바운더리)",
+    "DC전방위드 -> DC 전방위 (기대: 디시전 바운더리)",
+    "SN -> P(S) (기대: SNR)",
+    "APS기든 -> BPSK기든 (기대: APSK기든|8PSK|APSK)"
+  ],
+  "neg": [
+    "MK -> M",
+    "맵 검파기는 여기 있는 사전 확률이 다를 때는 맵으로 풀어야 되고요. -> MAP 검파기는 여기 있는 사전 확률이 다를 때는 MAP으로 풀어야 되고요."
+  ],
+  "other": [
+    "디지털 신호 00가 -> 디지털 신호로 00이",
+    "RN -> r",
+    "MI -> P(I)",
+    "조건방률이죠. -> 조건부 확률이죠.",
+    "가오션 분포의 수식에서 -> 가우시안 분포의 수식에서",
+    "MK를 전성한다는 가정하에서 -> MK를 전송한다는 가정하에서",
+    "엔젤 -> 엔지니어",
+    "AN 더하기 JBN -> AN + jBN"
+  ],
+  "fmt": [
+    "BPS-K -> BPSK"
+  ],
+  "proposals": [
+    {
+      "original": "ML-GUNPACK",
+      "correction": "ML-detector"
+    },
+    {
+      "original": "T-SIM",
+      "correction": "T_symbol"
+    },
+    {
+      "original": "ML건파기",
+      "correction": "ML 검파기"
+    },
+    {
+      "original": "이참평면도",
+      "correction": "I-Q 평면도"
+    },
+    {
+      "original": "디지털 신호 00가",
+      "correction": "디지털 신호로 00이"
+    },
+    {
+      "original": "컨솔레이션",
+      "correction": "결정(Decision)"
+    },
+    {
+      "original": "가오션 자구분",
+      "correction": "가우시안 잡음분포"
+    },
+    {
+      "original": "디시점반드로",
+      "correction": "결정 경계로"
+    },
+    {
+      "original": "16qm",
+      "correction": "16-QAM"
+    },
+    {
+      "original": "BPS-K",
+      "correction": "BPSK"
+    },
+    {
+      "original": "16kM",
+      "correction": "16-QAM"
+    },
+    {
+      "original": "DC전방위드",
+      "correction": "DC 전방위"
+    },
+    {
+      "original": "AWN",
+      "correction": "AWGN"
+    },
+    {
+      "original": "수식어",
+      "correction": "수식과"
+    },
+    {
+      "original": "PPSK",
+      "correction": "PSK"
+    },
+    {
+      "original": "MLEQM",
+      "correction": "16-QAM"
+    },
+    {
+      "original": "MZ",
+      "correction": "M0"
+    },
+    {
+      "original": "MLSD",
+      "correction": "M-1"
+    },
+    {
+      "original": "MK",
+      "correction": "M"
+    },
+    {
+      "original": "RN",
+      "correction": "r"
+    },
+    {
+      "original": "SN",
+      "correction": "P(S)"
+    },
+    {
+      "original": "MI",
+      "correction": "P(I)"
+    },
+    {
+      "original": "MK라고 복업되어 있는 경우는",
+      "correction": "MK라고 복조되어 있는 경우는"
+    },
+    {
+      "original": "NAP 검파기와 ML 검파기의 차이점은",
+      "correction": "MAP 검파기와 ML 검파기의 차이점은"
+    },
+    {
+      "original": "맵 검파기는 여기 있는 사전 확률이 다를 때는 맵으로 풀어야 되고요.",
+      "correction": "MAP 검파기는 여기 있는 사전 확률이 다를 때는 MAP으로 풀어야 되고요."
+    },
+    {
+      "original": "AWN 채널로 MK를 전송했을 경우에",
+      "correction": "AWGN 채널로 MK를 전송했을 경우에"
+    },
+    {
+      "original": "조건방률이죠.",
+      "correction": "조건부 확률이죠."
+    },
+    {
+      "original": "가오션 분포의 수식에서",
+      "correction": "가우시안 분포의 수식에서"
+    },
+    {
+      "original": "MK를 전성한다는 가정하에서",
+      "correction": "MK를 전송한다는 가정하에서"
+    },
+    {
+      "original": "엔젤",
+      "correction": "엔지니어"
+    },
+    {
+      "original": "BPS기든",
+      "correction": "BPSK기든"
+    },
+    {
+      "original": "QPS기든",
+      "correction": "QPSK기든"
+    },
+    {
+      "original": "APS기든",
+      "correction": "BPSK기든"
+    },
+    {
+      "original": "AN 더하기 JBN",
+      "correction": "AN + jBN"
+    },
+    {
+      "original": "ML금파괴",
+      "correction": "ML 검파기"
+    }
+  ],
+  "miss": [
+    "수신신보 -> 수신신호",
+    "복주 -> 복조",
+    "사사분면 -> 4사분면",
+    "BPSQ -> BPSK",
+    "16회 면조 -> 16QAM 변조",
+    "AWM -> AWGN",
+    "승볼 -> 심볼",
+    "M-QM -> M-QAM",
+    "최적의 복구기 -> 최적의 복조기",
+    "조건부 환경 -> 조건부 확률",
+    "베이지 법칙 -> 베이즈 법칙",
+    "Map 검파기 -> MAP 검파기",
+    "맥시멀 라이클 후드 -> Maximum Likelihood|최대 우도|맥시멈 라이클리후드",
+    "ML금파기 -> ML 검파기",
+    "복수수평면도 -> 복소평면도",
+    "임페이지 성분 -> 인페이즈 성분",
+    "코드레트 성분 -> 쿼드러처 성분",
+    "코일의 디렉션 -> 코히런트 디텍션",
+    "수신빌터 -> 수신필터",
+    "디지털 마운드리 -> 디시전 바운더리",
+    "가우션 부품 -> 가우시안 분포",
+    "ML 건폐 -> ML 검파|ML 검파기",
+    "16QM -> 16QAM|16-QAM",
+    "M-ary QM -> M-ary QAM",
+    "QM복조기 -> QAM 복조기",
+    "D-Min2 -> d_min|D_min|dmin"
+  ],
+  "skipped_reason": null
+}

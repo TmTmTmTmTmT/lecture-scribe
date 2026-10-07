@@ -1,0 +1,231 @@
+{
+  "tag": "prod_final",
+  "model": "gemma4:e4b",
+  "summary": {
+    "run": 3,
+    "proposals": 35,
+    "hit": 22,
+    "wrong": 4,
+    "miss": 25,
+    "neg": 0,
+    "other": 5,
+    "fmt": 4,
+    "precision": 0.71,
+    "recall": 0.431,
+    "elapsed_sec": 135.0
+  },
+  "hit": [
+    "ML-GUNPACK -> ML-detector",
+    "수신신보 -> 수신신호",
+    "ML건파기 -> ML 검파기",
+    "복주 -> 복조",
+    "사사분면 -> 사분면",
+    "가오션 자구분 -> 가우시안 잡음",
+    "AWM 채널 -> AWGN 채널",
+    "16kM -> 16-QAM",
+    "AWN -> AWGN",
+    "수식어 -> 수식과",
+    "PPSK -> PSK",
+    "MZ부터 시작해서 MLSD까지 MLEQM -> M0부터 시작해서 M-1까지 M-QAM",
+    "NAP -> MAP",
+    "가우션 -> 가우시안",
+    "가오션 -> 가우시안",
+    "ML금파기 -> ML검파기",
+    "가우션 부품 -> 가우시안 분포",
+    "BPS기든 -> BPSK기든",
+    "QPS기든 -> QPSK기든",
+    "APS기든 -> APSK기든",
+    "수신빌터를 -> 수신필터를",
+    "ML금파괴 -> ML 검파기"
+  ],
+  "wrong": [
+    "DC전방위드 -> DC 전방위대 (기대: 디시전 바운더리)",
+    "SN -> P(S) (기대: SNR)",
+    "복업되어 -> 복원되어 (기대: 복조되어)",
+    "코드레트 -> 직교(Orthogonal) 또는 코사인(Cosine) (기대: 쿼드러처 성분)"
+  ],
+  "neg": [],
+  "other": [
+    "MI -> P(M_i)",
+    "맵 -> MAP",
+    "조건방률 -> 조건확률",
+    "엔젤 -> r",
+    "임페이저 -> 임피던스"
+  ],
+  "fmt": [
+    "symbol RN -> symbol $R_n$",
+    "MK -> M_k",
+    "BPS-K -> BPSK",
+    "LN -> ln"
+  ],
+  "proposals": [
+    {
+      "original": "ML-GUNPACK",
+      "correction": "ML-detector"
+    },
+    {
+      "original": "수신신보",
+      "correction": "수신신호"
+    },
+    {
+      "original": "ML건파기",
+      "correction": "ML 검파기"
+    },
+    {
+      "original": "symbol RN",
+      "correction": "symbol $R_n$"
+    },
+    {
+      "original": "MK",
+      "correction": "M_k"
+    },
+    {
+      "original": "복주",
+      "correction": "복조"
+    },
+    {
+      "original": "사사분면",
+      "correction": "사분면"
+    },
+    {
+      "original": "가오션 자구분",
+      "correction": "가우시안 잡음"
+    },
+    {
+      "original": "AWM 채널",
+      "correction": "AWGN 채널"
+    },
+    {
+      "original": "BPS-K",
+      "correction": "BPSK"
+    },
+    {
+      "original": "16kM",
+      "correction": "16-QAM"
+    },
+    {
+      "original": "DC전방위드",
+      "correction": "DC 전방위대"
+    },
+    {
+      "original": "AWN",
+      "correction": "AWGN"
+    },
+    {
+      "original": "수식어",
+      "correction": "수식과"
+    },
+    {
+      "original": "PPSK",
+      "correction": "PSK"
+    },
+    {
+      "original": "MZ부터 시작해서 MLSD까지 MLEQM",
+      "correction": "M0부터 시작해서 M-1까지 M-QAM"
+    },
+    {
+      "original": "SN",
+      "correction": "P(S)"
+    },
+    {
+      "original": "MI",
+      "correction": "P(M_i)"
+    },
+    {
+      "original": "복업되어",
+      "correction": "복원되어"
+    },
+    {
+      "original": "NAP",
+      "correction": "MAP"
+    },
+    {
+      "original": "맵",
+      "correction": "MAP"
+    },
+    {
+      "original": "조건방률",
+      "correction": "조건확률"
+    },
+    {
+      "original": "가우션",
+      "correction": "가우시안"
+    },
+    {
+      "original": "가오션",
+      "correction": "가우시안"
+    },
+    {
+      "original": "LN",
+      "correction": "ln"
+    },
+    {
+      "original": "엔젤",
+      "correction": "r"
+    },
+    {
+      "original": "ML금파기",
+      "correction": "ML검파기"
+    },
+    {
+      "original": "가우션 부품",
+      "correction": "가우시안 분포"
+    },
+    {
+      "original": "BPS기든",
+      "correction": "BPSK기든"
+    },
+    {
+      "original": "QPS기든",
+      "correction": "QPSK기든"
+    },
+    {
+      "original": "APS기든",
+      "correction": "APSK기든"
+    },
+    {
+      "original": "코드레트",
+      "correction": "직교(Orthogonal) 또는 코사인(Cosine)"
+    },
+    {
+      "original": "수신빌터를",
+      "correction": "수신필터를"
+    },
+    {
+      "original": "임페이저",
+      "correction": "임피던스"
+    },
+    {
+      "original": "ML금파괴",
+      "correction": "ML 검파기"
+    }
+  ],
+  "miss": [
+    "T-SIM -> T_sym",
+    "이참평면도 -> 복소평면도",
+    "컨솔레이션 -> 콘스텔레이션|constellation|컨스텔레이션",
+    "BPSQ -> BPSK",
+    "16회 면조 -> 16QAM 변조",
+    "디시점반드로 -> 디시전 바운더리",
+    "승볼 -> 심볼",
+    "16qm -> 16QAM",
+    "M-QM -> M-QAM",
+    "최적의 복구기 -> 최적의 복조기",
+    "조건부 환경 -> 조건부 확률",
+    "베이지 법칙 -> 베이즈 법칙",
+    "Map 검파기 -> MAP 검파기",
+    "맥시멀 라이클 후드 -> Maximum Likelihood|최대 우도|맥시멈 라이클리후드",
+    "복수수평면도 -> 복소평면도",
+    "임페이지 성분 -> 인페이즈 성분",
+    "코일의 디렉션 -> 코히런트 디텍션",
+    "디지털 마운드리 -> 디시전 바운더리",
+    "ML 건폐 -> ML 검파|ML 검파기",
+    "MLSD -> M15",
+    "MLEQM -> 16QAM",
+    "16QM -> 16QAM|16-QAM",
+    "M-ary QM -> M-ary QAM",
+    "QM복조기 -> QAM 복조기",
+    "D-Min2 -> d_min|D_min|dmin"
+  ],
+  "skipped_reason": null
+}

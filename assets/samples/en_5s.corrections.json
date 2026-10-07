@@ -1,0 +1,77 @@
+{
+ "schema": "lecture-scribe/corrections/v1",
+ "source_audio": "/path/to/lecture-scribe/assets/samples/en_5s.m4a",
+ "source_transcript": "/path/to/lecture-scribe/assets/samples/en_5s_1.txt",
+ "generated_at": "2026-09-06T00:41:00+09:00",
+ "topic": "",
+ "glossary": [
+  "데이터",
+  "교수님",
+  "기상점",
+  "데이터셋",
+  "기상청",
+  "스마트폰",
+  "디바이스",
+  "인공지능",
+  "시나리오",
+  "카메라",
+  "인터뷰",
+  "경우에",
+  "부분들",
+  "작업장",
+  "하우스",
+  "있게끔",
+  "시스템",
+  "아니라",
+  "서비스",
+  "IMU",
+  "가속도계",
+  "알고리즘",
+  "경진대회",
+  "농어촌"
+ ],
+ "corrector": {
+  "backend": "ollama",
+  "model": "gemma4:e2b",
+  "elapsed_sec": 14.84,
+  "chunks": 1
+ },
+ "notice": "원문 전사는 수정되지 않았습니다. 아래는 음성인식 오류로 추정되는 부분과 교정 후보입니다. 각 original 문자열은 전사문에 그대로 존재함이 기계적으로 확인되었습니다. 다만 교정을 제안한 모델은 오디오를 듣지 못하고 문맥만 보고 추정했으므로, 교정 내용은 확정 사실이 아닙니다. 인용할 때는 원문을 쓰고 교정은 가능성으로만 다루십시오.",
+ "inline_marker": "전사문에는 `원문[→교정]` 형태로 표시되어 있습니다.",
+ "stats": {
+  "accepted": 2,
+  "rejected": 0,
+  "by_confidence": {
+   "high": 2,
+   "medium": 0,
+   "low": 0
+  }
+ },
+ "corrections": [
+  {
+   "id": 1,
+   "segment_id": 0,
+   "start": 0.0,
+   "end": 3.8,
+   "original": "impedance matching",
+   "correction": "임피던스 매칭",
+   "reason": "이는 공학 분야에서 통용되는 전문 용어이므로 한국어로 음차하여 표기하는 것이 적절하다.",
+   "confidence": "high",
+   "segment_avg_logprob": -0.104,
+   "context": "Today we will discuss impedance matching and the Smith chart in microwave engineering."
+  },
+  {
+   "id": 2,
+   "segment_id": 0,
+   "start": 0.0,
+   "end": 3.8,
+   "original": "Smith chart",
+   "correction": "스미스 차트",
+   "reason": "이는 특정 측정 또는 분석에 사용되는 고유한 도구의 이름이므로 음차하여 표기한다.",
+   "confidence": "high",
+   "segment_avg_logprob": -0.104,
+   "context": "Today we will discuss impedance matching and the Smith chart in microwave engineering."
+  }
+ ],
+ "rejected_samples": []
+}

@@ -1,0 +1,157 @@
+{
+  "tag": "ocr",
+  "model": "gemma4:e2b",
+  "summary": {
+    "run": 2,
+    "proposals": 18,
+    "hit": 5,
+    "wrong": 3,
+    "miss": 35,
+    "neg": 3,
+    "other": 3,
+    "fmt": 4,
+    "precision": 0.357,
+    "recall": 0.116,
+    "elapsed_sec": 80.3
+  },
+  "hit": [
+    "AWN 채널에서의 최적의 복구기인 ML 검파기를 유도하도록 하겠습니다. -> AWGN 채널에서의 최적의 복구기인 ML 검파기를 유도하도록 하겠습니다.",
+    "그 보낸 심볼이 PPSK이면 M0과 M1 중에 하나를 선택하는 것이고요. -> 그 보낸 심볼이 BPSK이면 M0과 M1 중에 하나를 선택하는 것이고요.",
+    "16M이면 MZ부터 시작해서 MLSD까지 MLEQM인 경우에 -> 16M이면 M0부터 시작해서 MLSD까지 MLEQM인 경우에",
+    "AWN -> AWGN",
+    "ML금파괴 -> ML 검파기"
+  ],
+  "wrong": [
+    "ML-GUNPACK -> ML 추정 (기대: ML 검파기|ML detector|ML-detector|ML 디텍터)",
+    "16qm인 경우에는 -> 16M인 경우에는 (기대: 16QAM)",
+    "M-QM에서 N값이 증가할수록 -> M-ary Qam에서 N값이 증가할수록 (기대: M-QAM)"
+  ],
+  "neg": [
+    "mk 확률 조금을 구할 수 없기 때문에 -> mk 확률을 구할 수 없기 때문에",
+    "또 MK가 발생할 확률, 또 수신신볼 확률 -> 또 MK가 발생할 확률, 또 수신 신호 확률",
+    "MK를 제외한 모든 심벌에 대해서 -> MK를 제외한 모든 심볼에 대해서"
+  ],
+  "other": [
+    "RN -> 신호",
+    "D 모듈레트 -> D 모듈레이트",
+    "AN 더하기 JBN -> AN + JBN"
+  ],
+  "fmt": [
+    "사전 확률이 요하치 다를 경우는 이걸 우리가 Map 검파기라고 부릅니다. -> 사전 확률이 요하치 다를 경우는 이걸 우리가 MAP 검파기라고 부릅니다.",
+    "LN -> ln",
+    "ml검파기 -> ML 검파기",
+    "mk -> MK"
+  ],
+  "proposals": [
+    {
+      "original": "ML-GUNPACK",
+      "correction": "ML 추정"
+    },
+    {
+      "original": "16qm인 경우에는",
+      "correction": "16M인 경우에는"
+    },
+    {
+      "original": "M-QM에서 N값이 증가할수록",
+      "correction": "M-ary Qam에서 N값이 증가할수록"
+    },
+    {
+      "original": "AWN 채널에서의 최적의 복구기인 ML 검파기를 유도하도록 하겠습니다.",
+      "correction": "AWGN 채널에서의 최적의 복구기인 ML 검파기를 유도하도록 하겠습니다."
+    },
+    {
+      "original": "그 보낸 심볼이 PPSK이면 M0과 M1 중에 하나를 선택하는 것이고요.",
+      "correction": "그 보낸 심볼이 BPSK이면 M0과 M1 중에 하나를 선택하는 것이고요."
+    },
+    {
+      "original": "16M이면 MZ부터 시작해서 MLSD까지 MLEQM인 경우에",
+      "correction": "16M이면 M0부터 시작해서 MLSD까지 MLEQM인 경우에"
+    },
+    {
+      "original": "mk 확률 조금을 구할 수 없기 때문에",
+      "correction": "mk 확률을 구할 수 없기 때문에"
+    },
+    {
+      "original": "또 MK가 발생할 확률, 또 수신신볼 확률",
+      "correction": "또 MK가 발생할 확률, 또 수신 신호 확률"
+    },
+    {
+      "original": "MK를 제외한 모든 심벌에 대해서",
+      "correction": "MK를 제외한 모든 심볼에 대해서"
+    },
+    {
+      "original": "사전 확률이 요하치 다를 경우는 이걸 우리가 Map 검파기라고 부릅니다.",
+      "correction": "사전 확률이 요하치 다를 경우는 이걸 우리가 MAP 검파기라고 부릅니다."
+    },
+    {
+      "original": "AWN",
+      "correction": "AWGN"
+    },
+    {
+      "original": "RN",
+      "correction": "신호"
+    },
+    {
+      "original": "LN",
+      "correction": "ln"
+    },
+    {
+      "original": "ml검파기",
+      "correction": "ML 검파기"
+    },
+    {
+      "original": "mk",
+      "correction": "MK"
+    },
+    {
+      "original": "D 모듈레트",
+      "correction": "D 모듈레이트"
+    },
+    {
+      "original": "AN 더하기 JBN",
+      "correction": "AN + JBN"
+    },
+    {
+      "original": "ML금파괴",
+      "correction": "ML 검파기"
+    }
+  ],
+  "miss": [
+    "T-SIM -> T_sym",
+    "수신신보 -> 수신신호",
+    "ML건파기 -> ML 검파기",
+    "이참평면도 -> 복소평면도",
+    "복주 -> 복조",
+    "사사분면 -> 4사분면",
+    "컨솔레이션 -> 콘스텔레이션|constellation|컨스텔레이션",
+    "BPSQ -> BPSK",
+    "16회 면조 -> 16QAM 변조",
+    "가오션 자구분 -> 가우시안 잡음",
+    "AWM -> AWGN",
+    "디시점반드로 -> 디시전 바운더리",
+    "DC전방위드 -> 디시전 바운더리",
+    "승볼 -> 심볼",
+    "16kM -> 16QAM",
+    "SNL -> SNR",
+    "수식어와 같이 -> 수식과 같이",
+    "최적의 복구기 -> 최적의 복조기",
+    "조건부 환경 -> 조건부 확률",
+    "베이지 법칙 -> 베이즈 법칙",
+    "Map 검파기 -> MAP 검파기",
+    "NAP 검파기 -> MAP 검파기",
+    "맥시멀 라이클 후드 -> Maximum Likelihood|최대 우도|맥시멈 라이클리후드",
+    "복업되어 -> 복조되어",
+    "ML금파기 -> ML 검파기",
+    "복수수평면도 -> 복소평면도",
+    "임페이지 성분 -> 인페이즈 성분",
+    "코드레트 성분 -> 쿼드러처 성분",
+    "코일의 디렉션 -> 코히런트 디텍션",
+    "수신빌터 -> 수신필터",
+    "디지털 마운드리 -> 디시전 바운더리",
+    "가우션 부품 -> 가우시안 분포",
+    "ML 건폐 -> ML 검파|ML 검파기",
+    "MLSD -> M15",
+    "MLEQM -> 16QAM"
+  ],
+  "skipped_reason": null
+}
